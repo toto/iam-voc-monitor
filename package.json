@@ -1,0 +1,25 @@
+{
+  "name": "iam-voc-monitor",
+  "version": "1.0.0",
+  "description": "Applied Sensors indor air quality (iAM) (VOC) sensor for the USB port using libusb",
+  "main": "iam-voc.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "keywords": [
+    "sensor",
+    "iot",
+    "voc",
+    "rehau",
+		"applied sensors",
+		"usb"
+  ],
+  "dependencies": {
+     "usb": "~1.2.0"
+   },
+	 "engines": { 
+  	"node": ">=6.x" 
+  },
+  "author": "toto",
+  "license": "BSD"
+}
