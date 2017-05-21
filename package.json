@@ -2,10 +2,18 @@
   "name": "iam-voc-monitor",
   "version": "1.0.0",
   "description": "Applied Sensors indor air quality (iAM) (VOC) sensor for the USB port using libusb",
-  "main": "iam-voc.js",
+  "main": "iam-voc-monitor.js",
   "scripts": {
-    "test": "exit 0"
+      "test": "echo \"Error: no test present\" && exit 1"
   },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/toto/iam-voc-monitor.git"
+  },	
+  "files": [
+      "iam-voc-monitor.js",
+      "README.md"
+  ],
   "keywords": [
     "sensor",
     "iot",
